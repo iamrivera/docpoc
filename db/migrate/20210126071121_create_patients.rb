@@ -8,7 +8,7 @@ class CreatePatients < ActiveRecord::Migration
       t.string :occupation
       t.string :marital_status
       t.date :birthday
-      t.integer :doctor_id
+      t.integer :doctor
       t.timestamps null: false
     end
   end
