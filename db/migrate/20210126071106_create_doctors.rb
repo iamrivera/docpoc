@@ -8,7 +8,7 @@ class CreateDoctors < ActiveRecord::Migration
       t.string :specialty
       t.string :medical_school
       t.string :residency
-      t.year :graduation_date
+      t.string :graduation_date
       t.string :password
       t.timestamps null: false
     end
